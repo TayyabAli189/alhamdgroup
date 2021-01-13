@@ -4,11 +4,11 @@
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-12 text-center">
-                        <h2 class="slide-title" data-animation-in="slideInLeft">17 Years of excellence in</h2>
-                        <h3 class="slide-sub-title" data-animation-in="slideInRight">Construction Industry</h3>
+                        <h2 class="slide-title" data-animation-in="slideInLeft">You're Most Welcome At</h2>
+                        <h3 class="slide-sub-title" data-animation-in="slideInRight">AL HAMAD TELECOM SERVICES</h3>
                         <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                            <a href="services.html" class="slider btn btn-primary">Our Services</a>
-                            <a href="contact.html" class="slider btn btn-primary border">Contact Now</a>
+                            <a href="" class="slider btn btn-primary">Our Services</a>
+                            <a href="{{url('contact')}}" class="slider btn btn-primary border">Contact Now</a>
                         </p>
                     </div>
                 </div>

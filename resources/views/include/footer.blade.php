@@ -3,19 +3,20 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-4 col-md-6 footer-widget footer-about">
-                    <h3 class="widget-title">About Us</h3>
-                    <img loading="lazy" class="footer-logo" src="{{asset('frontend/images/footer-logo.png')}}" alt="Constra">
+                  {{--  <h3 class="widget-title">About Us</h3>--}}
+                    <h3 class="widget-title">"Al Hamd Telecom Services "</h3>
+                    {{--<img loading="lazy" class="footer-logo" src="{{asset('frontend/images/footer-logo.png')}}" alt="Constra">--}}
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
                         labore et dolore magna aliqua.</p>
                     <div class="footer-social">
                         <ul>
-                            <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
+                            <li><a href="" aria-label="Facebook"><i
                                         class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <li><a href="r" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                             </li>
-                            <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
+                            <li><a href="" aria-label="Instagram"><i
                                         class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
+                            <li><a href="" aria-label="Github"><i class="fab fa-github"></i></a></li>
                         </ul>
                     </div><!-- Footer social end -->
                 </div><!-- Col end -->
@@ -34,11 +35,11 @@
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
                     <h3 class="widget-title">Services</h3>
                     <ul class="list-arrow">
-                        <li><a href="service-single.html">Pre-Construction</a></li>
-                        <li><a href="service-single.html">General Contracting</a></li>
-                        <li><a href="service-single.html">Construction Management</a></li>
-                        <li><a href="service-single.html">Design and Build</a></li>
-                        <li><a href="service-single.html">Self-Perform Construction</a></li>
+                        <li><a href="">Pre-Construction</a></li>
+                        <li><a href="">General Contracting</a></li>
+                        <li><a href="">Construction Management</a></li>
+                        <li><a href="">Design and Build</a></li>
+                        <li><a href="">Self-Perform Construction</a></li>
                     </ul>
                 </div><!-- Col end -->
             </div><!-- Row end -->
@@ -52,18 +53,17 @@
                     <div class="copyright-info">
               <span>Copyright &copy; <script>
                   document.write(new Date().getFullYear())
-                </script>, Designed &amp; Developed by <a href="">Themefisher</a></span>
+                </script>, Designed &amp; Developed by <a href="https://www.linkedin.com/in/tayyab-ali-1ba066151/" target="_blank">"Tayyab Ali"</a></span>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="footer-menu text-center text-md-right">
                         <ul class="list-unstyled mb-0">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="team.html">Our people</a></li>
-                            <li><a href="faq.html">Faq</a></li>
-                            <li><a href="news-left-sidebar.html">Blog</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="{{url('about')}}">About</a></li>
+                            <li><a href="">Our people</a></li>
+                            <li><a href="">Faq</a></li>
+                            <li><a href="">Blog</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,3 +1,39 @@
+<div id="top-bar" class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <ul class="top-info text-center text-md-left">
+                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">123 Block J-3, Johar Town, Lahore</p>
+                    </li>
+                </ul>
+            </div>
+            <!--/ Top info end -->
+
+            <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+                <ul class="list-unstyled">
+                    <li>
+                        <a title="Facebook" href="">
+                            <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                        <a title="Twitter" href="">
+                            <span class="social-icon"><i class="fab fa-twitter"></i></span>
+                        </a>
+                        <a title="Instagram" href="">
+                            <span class="social-icon"><i class="fab fa-instagram"></i></span>
+                        </a>
+                        <a title="Linkdin" href="">
+                            <span class="social-icon"><i class="fab fa-github"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/ Top social end -->
+        </div>
+        <!--/ Content row end -->
+    </div>
+    <!--/ Container end -->
+</div>
+
 <!-- Header start -->
 <header id="header" class="header-one">
     <div class="bg-white">
@@ -5,8 +41,8 @@
             <div class="logo-area">
                 <div class="row align-items-center">
                     <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-                        <a class="d-block" href="index.html">
-                            <img loading="lazy" src="{{asset('frontend/images/logo.png')}}" alt="Constra">
+                        <a class="d-block" href="/">
+                            <img loading="lazy" src="{{asset('frontend/images/new-ats.png')}}" alt="Constra" style=" width: 200px; height: 100px">
                         </a>
                     </div><!-- logo end -->
 
@@ -16,7 +52,7 @@
                                 <div class="info-box">
                                     <div class="info-box-content">
                                         <p class="info-box-title">Call Us</p>
-                                        <p class="info-box-subtitle">(+9) 847-291-4353</p>
+                                        <p class="info-box-subtitle">042-35313123</p>
                                     </div>
                                 </div>
                             </li>
@@ -24,20 +60,20 @@
                                 <div class="info-box">
                                     <div class="info-box-content">
                                         <p class="info-box-title">Email Us</p>
-                                        <p class="info-box-subtitle">office@Constra.com</p>
+                                        <p class="info-box-subtitle">akmalfazal9@gmail.com</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="last">
                                 <div class="info-box last">
                                     <div class="info-box-content">
-                                        <p class="info-box-title">Global Certificate</p>
-                                        <p class="info-box-subtitle">ISO 9001:2017</p>
+                                        <p class="info-box-title">Email Us</p>
+                                        <p class="info-box-subtitle">mumtazy2k7@gmail.com</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="header-get-a-quote">
-                                <a class="btn btn-primary" href="contact.html">Get A Quote</a>
+                                <a class="btn btn-primary" href="{{url('contact')}}">Get A Quote</a>
                             </li>
                         </ul><!-- Ul end -->
                     </div><!-- header right end -->
@@ -59,66 +95,20 @@
                         <div id="navbar-collapse" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav mr-auto">
                                 <li class="nav-item dropdown active">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li class="active"><a href="index.html">Home One</a></li>
-                                        <li><a href="index-2.html">Home Two</a></li>
-                                    </ul>
+                                    <a href="/" class="nav-link dropdown-toggle" data-toggle="">Home </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="{{url('service')}}" class="nav-link dropdown-toggle" data-toggle="">Services</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="{{url('about')}}" class="nav-link dropdown-toggle" data-toggle="">About Us</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our People</a></li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                    </ul>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="">Projects</a>
                                 </li>
 
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="projects.html">Projects All</a></li>
-                                        <li><a href="projects-single.html">Projects Single</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="services.html">Services All</a></li>
-                                        <li><a href="service-single.html">Services Single</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Features <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="typography.html">Typography</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#!" class="dropdown-toggle" data-toggle="dropdown">Parent Menu</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#!">Child Menu 1</a></li>
-                                                <li><a href="#!">Child Menu 2</a></li>
-                                                <li><a href="#!">Child Menu 3</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">News <i class="fa fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="news-left-sidebar.html">News Left Sidebar</a></li>
-                                        <li><a href="news-right-sidebar.html">News Right Sidebar</a></li>
-                                        <li><a href="news-single.html">News Single</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>

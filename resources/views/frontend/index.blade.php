@@ -7,9 +7,6 @@
 
     <!-- Mobile Specific Metas
   ================================================== -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
     <!-- Favicon
   ================================================== -->
@@ -21,41 +18,6 @@
 <body>
 <div class="body-inner">
 
-    <div id="top-bar" class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <ul class="top-info text-center text-md-left">
-                        <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">9051 Constra Incorporate, USA</p>
-                        </li>
-                    </ul>
-                </div>
-                <!--/ Top info end -->
-
-                <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a title="Facebook" href="">
-                                <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
-                            </a>
-                            <a title="Twitter" href="">
-                                <span class="social-icon"><i class="fab fa-twitter"></i></span>
-                            </a>
-                            <a title="Instagram" href="">
-                                <span class="social-icon"><i class="fab fa-instagram"></i></span>
-                            </a>
-                            <a title="Linkdin" href="">
-                                <span class="social-icon"><i class="fab fa-github"></i></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/ Top social end -->
-            </div>
-            <!--/ Content row end -->
-        </div>
-        <!--/ Container end -->
-    </div>
     <!--/ Topbar end -->
 
     @includeIf('include.header')
@@ -73,7 +35,7 @@
                     </div><!-- Col end -->
                     <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
                         <div class="call-to-action-btn">
-                            <a class="btn btn-dark" href="#">Request Quote</a>
+                            <a class="btn btn-dark" href="{{url('contact')}}">Request Quote</a>
                         </div>
                     </div><!-- col end -->
                 </div><!-- row end -->
@@ -86,11 +48,11 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="ts-intro">
-                        <h2 class="into-title">About Us</h2>
-                        <h3 class="into-sub-title">We deliver landmark projects</h3>
-                        <p>We are rethoric question ran over her cheek When she reached the first hills of the Italic Mountains,
-                            she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village
-                            and the subline of her own road, the Line Lane.</p>
+                        <h2 class="into-title">The Company</h2>
+                        <h3 class="into-sub-title">Mission</h3>
+                        <p>
+                            Al Hamd Telecom Services is a Company with seasoned professional that provides outsourcing solutions to its esteemed clients. The company is working with the mission to achieve utmost customer satisfaction level towards quality of work and service delivery. We believe that focusing to meet customers targets by reducing their costs without compromising quality not only can benefit both of us but also make us a distinguish and preferred company of the region.
+                        </p>
                     </div><!-- Intro box end -->
 
                     <div class="gap-20"></div>
@@ -146,7 +108,10 @@
 
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <h3 class="into-sub-title">Our Values</h3>
-                    <p>Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur bitters. Pop-up occaecat taxidermy street art, tattooed beard literally.</p>
+                    <p>Company strictly adhere to the ethical standards with
+                        Zero Tolerance on Corruption. The principals at Al Hamd Telecom possess solid experience spanning over TEN years in the Telecom sector of Pakistan.
+                        We have expertise in all type of Construction Solution, Arrangement of Power, Site Acquisition, Arrangement of NOCs /Build Out Approvals, Environment related Approvals, Dismantling, Packaging and Transportation of Sites /Infrastructures.
+                    </p>
 
                     <div class="accordion accordion-group" id="our-values-accordion">
                         <div class="card">
@@ -158,7 +123,7 @@
                                 </h2>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#our-values-accordion">
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headiTESTIMONIALSngOne" data-parent="#our-values-accordion">
                                 <div class="card-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
                                 </div>
@@ -209,8 +174,8 @@
                             <img loading="lazy" src="{{asset('frontend/images/icon-image/fact1.png')}}" alt="facts-img">
                         </div>
                         <div class="ts-facts-content">
-                            <h2 class="ts-facts-num"><span class="counterUp" data-count="1789">0</span></h2>
-                            <h3 class="ts-facts-title">Total Projects</h3>
+                            <h3 class="ts-facts-num">Projects</h3>
+                            <h3 class="ts-facts-title">Completed Successfully</h3>
                         </div>
                     </div><!-- Col end -->
 
@@ -219,7 +184,7 @@
                             <img loading="lazy" src="{{asset('frontend/images/icon-image/fact2.png')}}" alt="facts-img">
                         </div>
                         <div class="ts-facts-content">
-                            <h2 class="ts-facts-num"><span class="counterUp" data-count="647">0</span></h2>
+                            <h3 class="ts-facts-num">Excellent</h3>
                             <h3 class="ts-facts-title">Staff Members</h3>
                         </div>
                     </div><!-- Col end -->
@@ -229,7 +194,7 @@
                             <img loading="lazy" src="{{asset('frontend/images/icon-image/fact3.png')}}" alt="facts-img">
                         </div>
                         <div class="ts-facts-content">
-                            <h2 class="ts-facts-num"><span class="counterUp" data-count="4000">0</span></h2>
+                            <h3 class="ts-facts-num">24/7</h3>
                             <h3 class="ts-facts-title">Hours of Work</h3>
                         </div>
                     </div><!-- Col end -->
@@ -239,8 +204,8 @@
                             <img loading="lazy" src="{{asset('frontend/images/icon-image/fact4.png')}}" alt="facts-img">
                         </div>
                         <div class="ts-facts-content">
-                            <h2 class="ts-facts-num"><span class="counterUp" data-count="44">0</span></h2>
-                            <h3 class="ts-facts-title">Countries Experience</h3>
+                            <h3 class="ts-facts-num">Positive</h3>
+                            <h3 class="ts-facts-title">Work Experience</h3>
                         </div>
                     </div><!-- Col end -->
 
@@ -480,18 +445,18 @@
                     </div><!-- shuffle end -->
                 </div>
 
-                <div class="col-12">
+            {{--    <div class="col-12">
                     <div class="general-btn text-center">
                         <a class="btn btn-primary" href="projects.html">View All Projects</a>
                     </div>
-                </div>
+                </div>--}}
 
             </div><!-- Content row end -->
         </div>
         <!--/ Container end -->
     </section><!-- Project area end -->
 
-    <section class="content">
+{{--    <section class="content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -608,8 +573,8 @@
             <!--/ Content row end -->
         </div>
         <!--/ Container end -->
-    </section><!-- Content end -->
-
+    </section><!-- Content end -->--}}
+{{--
     <section class="subscribe no-padding">
         <div class="container">
             <div class="row">
@@ -627,24 +592,24 @@
                             <p class="text-white">Latest updates and news</p>
                         </div>
 
-                        <div class="col-md-7 newsletter-form">
+                       --}}{{-- <div class="col-md-7 newsletter-form">
                             <form action="#" method="post">
                                 <div class="form-group">
                                     <label for="newsletter-email" class="content-hidden">Newsletter Email</label>
                                     <input type="email" name="email" id="newsletter-email" class="form-control form-control-lg" placeholder="Your your email and hit enter" autocomplete="off">
                                 </div>
                             </form>
-                        </div>
+                        </div>--}}{{--
                     </div><!-- Newsletter end -->
                 </div><!-- Col end -->
 
             </div><!-- Content row end -->
         </div>
         <!--/ Container end -->
-    </section>
+    </section>--}}
     <!--/ subscribe end -->
 
-    <section id="news" class="news">
+{{--    <section id="news" class="news">
         <div class="container">
             <div class="row text-center">
                 <div class="col-12">
@@ -723,7 +688,7 @@
 
         </div>
         <!--/ Container end -->
-    </section>
+    </section>--}}
     <!--/ News end -->
 
     @includeIf('include.footer')
