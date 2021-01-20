@@ -106,8 +106,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="column-title">We love to hear</h2>
-                   <form id="contact-form" action="#" method="post" role="form">
-                        <div class="error-container"></div>
+                   <form id="contact-form" action="{{route('store.contact')}}" method="post" role="form" enctype="multipart/form-data">
+                        @csrf
+
+                       <div class="error-container"></div>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -118,11 +120,16 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email"
-                                           required>
+                                    <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email" required>
                                 </div>
                             </div>
                             <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input class="form-control form-control-phone" name="phone" id="phone" placeholder="" type="phone" required>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
                                 <div class="form-group">
                                     <label>Subject</label>
                                     <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
@@ -131,8 +138,7 @@
                         </div>
                         <div class="form-group">
                             <label>Message</label>
-                            <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10"
-                                      required></textarea>
+                            <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10" required></textarea>
                         </div>
                         <div class="text-right"><br>
                             <button class="btn btn-primary solid blank" type="submit">Send Message</button>

@@ -108,7 +108,7 @@
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="">Projects</a>
                                 </li>
 
-                                <li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{url('contactus')}}">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>

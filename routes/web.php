@@ -19,8 +19,21 @@ Route::get('/', function () {
 
 Route::get('/', [\App\Http\Controllers\Frontend\HomeController::class,'view_home']);
 Route::get('/about',[\App\Http\Controllers\Frontend\AboutController::class,'view_about'])->name('frontend.about.about');
-Route::get('/contact',[\App\Http\Controllers\Frontend\ContactController::class,'view_contact'])->name('frontend.contact.contact');
+Route::get('/contactus',[\App\Http\Controllers\Frontend\ContactController::class,'view_contact'])->name('frontend.contact.contact');
 Route::get('/service',[\App\Http\Controllers\Frontend\ServiceController::class,'view_service'])->name('frontend.service.service');
 
 
-Route::get('/admin',[\App\Http\Controllers\Backend\ContactController::class,'contact'])->name('backend.contact.index');
+Route::middleware(['auth'])->group(function () {
+Route::get('/admin', [\App\Http\Controllers\Backend\ContactController::class,'index'])->name('listing.contact');
+
+});
+
+
+Route::get('add/contact',[\App\Http\Controllers\Backend\ContactController::class,'create'])->name('create.contact');
+Route::post('add/contact',[\App\Http\Controllers\Backend\ContactController::class,'store'])->name('store.contact');
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
