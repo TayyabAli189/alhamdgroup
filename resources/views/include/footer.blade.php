@@ -6,13 +6,12 @@
                   {{--  <h3 class="widget-title">About Us</h3>--}}
                     <h3 class="widget-title">"Al Hamd Telecom Services "</h3>
                     {{--<img loading="lazy" class="footer-logo" src="{{asset('frontend/images/footer-logo.png')}}" alt="Constra">--}}
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
-                        labore et dolore magna aliqua.</p>
+                    <p>Al Hamd Telecom Services is a Company with seasoned professional that provides outsourcing solutions to its esteemed clients. </p>
                     <div class="footer-social">
                         <ul>
                             <li><a href="" aria-label="Facebook"><i
                                         class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="r" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <li><a href="" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li><a href="" aria-label="Instagram"><i
                                         class="fab fa-instagram"></i></a></li>

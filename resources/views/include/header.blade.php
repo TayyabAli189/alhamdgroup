@@ -42,7 +42,7 @@
                 <div class="row align-items-center">
                     <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                         <a class="d-block" href="/">
-                            <img loading="lazy" src="{{asset('frontend/images/new-ats.png')}}" alt="Constra" style=" width: 200px; height: 100px">
+                            <img loading="lazy" src="{{asset('frontend/images/new ats yellow.png')}}" alt="Constra" style=" width: 230px; height: 100px">
                         </a>
                     </div><!-- logo end -->
 
@@ -73,7 +73,7 @@
                                 </div>
                             </li>
                             <li class="header-get-a-quote">
-                                <a class="btn btn-primary" href="{{url('contact')}}">Get A Quote</a>
+                                <a class="btn btn-primary" href="{{url('contactus')}}">Get A Quote</a>
                             </li>
                         </ul><!-- Ul end -->
                     </div><!-- header right end -->
@@ -104,10 +104,10 @@
                                     <a href="{{url('about')}}" class="nav-link dropdown-toggle" data-toggle="">About Us</a>
                                 </li>
 
-                                <li class="nav-item dropdown">
+                               {{-- <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="">Projects</a>
                                 </li>
-
+--}}
                                 <li class="nav-item"><a class="nav-link" href="{{url('contactus')}}">Contact Us</a></li>
                             </ul>
                         </div>

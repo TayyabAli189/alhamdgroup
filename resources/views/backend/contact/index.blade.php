@@ -81,10 +81,10 @@
             <!-- Sidebar user (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="{{asset('backend/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
+                    <img src="{{asset('backend/dist/img/user2-160x160.png')}}" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block">Alexander Pierce</a>
+                    <a href="#" class="d-block">Alhamd Telecom Services</a>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@
                                         <td>{{$contact->phone}}</td>
                                         <td>{{$contact->subject}}</td>
                                         <td>
-                                            <button type="button" class="show btn btn-lg btn-primary"  data-toggle="modal" data-target="#myModal{{$contact->id}}">Show Message</button>
+                                            <button type="button" class="show btn btn-lg btn-warning"  data-toggle="modal" data-target="#myModal{{$contact->id}}">Show Message</button>
                                         </td>
                                         <div id="myModal{{$contact->id}}" class="modal fade" tabindex="-1">
                                             <div class="modal-dialog">
@@ -169,7 +169,7 @@
                                                 <div class="modal-content">
                                                     <div class="modal-header">
 
-                                                        <h5 class="modal-title">{{$contact->subject}}</h5>
+                                                        <h5 class="modal-title" style="color: #000000; background-color: #ffc107; border-radius: 3px;">{{$contact->subject}}</h5>
 
                                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                     </div>
@@ -183,7 +183,7 @@
 
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -205,6 +205,8 @@
                                 </tfoot>
                             </table>
                         </div>
+
+
                         <!-- /.card-body -->
                     </div>
                     <!-- /.card -->
@@ -214,6 +216,15 @@
                 <!-- /.col -->
             </div>
             <!-- /.row -->
+            <div class="d-flex justify-content-center">
+                {!! $contacts->links() !!}
+            </div>
+            <style>
+                .w-5{
+                    display: none;
+                }
+            </style>
+
         </section>
         <!-- /.content -->
     </div>

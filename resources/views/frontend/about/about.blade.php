@@ -102,7 +102,7 @@
         </div><!-- Container end -->
     </section><!-- Main container end -->
 
-    <section id="facts" class="facts-area dark-bg">
+  {{--  <section id="facts" class="facts-area dark-bg">
         <div class="container">
             <div class="facts-wrapper">
                 <div class="row">
@@ -151,9 +151,9 @@
             <!--/ Content row end -->
         </div>
         <!--/ Container end -->
-    </section><!-- Facts end -->
+    </section><!-- Facts end -->--}}
 
-    <section id="ts-team" class="ts-team">
+  {{--  <section id="ts-team" class="ts-team">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12">
@@ -280,7 +280,7 @@
                 </div>
             </div><!--/ Content row end -->
         </div><!--/ Container end -->
-    </section><!--/ Team end -->
+    </section><!--/ Team end -->--}}
 
     @includeIf('include.footer')
 
